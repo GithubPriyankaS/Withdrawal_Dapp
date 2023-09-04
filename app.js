@@ -1,7 +1,7 @@
 app.js
 // app.js
-const contractAddress = 'YOUR_CONTRACT_ADDRESS'; // Replace with your contract address
-const abi = [...]; // Replace with your contract ABI
+const contractAddress = 'getset.sol'; 
+const abi = [...];
 
 const web3 = new web3(web3.givenProvider);
 const contract = new web3.eth.Contract(abi, contractAddress);
